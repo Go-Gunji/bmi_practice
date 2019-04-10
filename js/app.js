@@ -7,4 +7,4 @@ height = prompt('BMIを測定します。次にあなたの身長（m）を入�
 // 体重と身長からBMIを計算して、警告ダイアログに表示する
 let bmi = weight / (height*height);
 let message = "あなたのBMIは「" + bmi + "です。"
-alert(message)
+alert(message);
